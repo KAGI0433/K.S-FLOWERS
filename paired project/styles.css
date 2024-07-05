@@ -13,14 +13,31 @@
 
 header{
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: pink;
-    padding: 2rem;
+    top: 0; left: 0; right: 0;
+    background-color: whitesmoke;
+    padding: 2rem 9%;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0.5rem 1rem rgba(0,0,0,1);
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+}
+header .logo{
+    font-size: 3rem;
+    color: darkslategrey;
+    font-weight: bolder;
+}
+header .logo span{
+    color: plum;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color: palevioletred;
 }
 
