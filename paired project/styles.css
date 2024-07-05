@@ -33,6 +33,16 @@ section{
 .home .content{
     max-width: 50rem;
 }
+.home .content h3{
+ font: 6rem;
+ color: #333;
+}
+.home . content .span{
+    font-size: 3.5rem;
+    color: purple;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
 
 header{
     position: fixed;
