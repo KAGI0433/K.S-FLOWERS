@@ -277,6 +277,16 @@ header .navbar a:hover{
     border: 1rem solid rgba(0,0,0,.1);
     border-radius: 5rem;
     margin: 7rem 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-color: pink;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
 }
     
 
