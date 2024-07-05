@@ -246,6 +246,20 @@ header .navbar a:hover{
     font-weight: lighter;
     text-decoration: line-through;
 }
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: 5rem;
+}
     
 
 
