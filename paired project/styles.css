@@ -249,8 +249,9 @@ header .navbar a:hover{
 
 .contact .row{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap: 1.5rem;
+    align-items: center;
 }
 
 .contact .row form{
