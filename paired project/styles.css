@@ -179,7 +179,38 @@ header .navbar a:hover{
 
 .products .box-container .box .discount{
     position: absolute;
-    
+    top: 1rem; left: 1rem;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    color: pink;
+    background: rgba(225, 51, 153, 05);
+    z-index: 1;
+    border-radius: .5rem;
+
+}
+
+.products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.products .box-container .box .image img{
+    height: 25rem;
+}
+
+.products .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.products .box-container .box .image .icons a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width: 50%;
+    background: lightpink;
+    color: #fff;
 }
 
 
