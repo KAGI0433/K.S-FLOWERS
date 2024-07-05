@@ -10,6 +10,16 @@
     text-transform: capitalize;
     transition: 2s lin;
 }
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    
+}
 
 header{
     position: fixed;
