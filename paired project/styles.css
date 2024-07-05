@@ -10,6 +10,18 @@
     text-transform: capitalize;
     transition: 2s lin;
 }
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(225, 51, 153, 05);
+
+}
+
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -92,6 +104,8 @@ header .navbar a{
 header .navbar a:hover{
     color: palevioletred;
 }
+
+6
 
 
 
