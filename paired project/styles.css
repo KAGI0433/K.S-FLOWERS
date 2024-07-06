@@ -105,6 +105,20 @@ header .navbar a:hover{
     color: palevioletred;
 }
 
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: 5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: 1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
 .about .row{
     display: flex;
     align-items: center;
@@ -397,6 +411,7 @@ header .navbar a:hover{
 
 
 @media (max-width:991px){
+
     html{
         font-size: 55%;
     }
@@ -404,17 +419,32 @@ header .navbar a:hover{
         padding: 2rem;
     }
 }@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
     header .navbar{
         position: absolute;
         top: 100%; left: 0; right: 0;
         background: #eee;
         border-top: 1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     header .navbar a{
         margin: 1.5rem;
         padding: 1.5rem;
         border: 1rem solid rgba(0,0,0,.1);
         display: block;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
     }
 }
 
