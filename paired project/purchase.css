@@ -81,12 +81,12 @@
     width: 100%;
     padding: 12px;
     font-size: 17px;
-    background: orangered;
+    background: purple;
     color: azure;
     margin-top: 5px;
     cursor: pointer;
 }
 
 container form .submit-btn:hover{
-    background: orange;
+    background: palevioletred;
 }
