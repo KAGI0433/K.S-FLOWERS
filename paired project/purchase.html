@@ -3,45 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PURCHASING INFO</title>
+    <link rel="stylesheet" href="login.css">
+    <title>payments</title>
 </head>
 <body>
-    <form action="" method="get">
-        <div><IMG src="IMG_0742.jpg" width="460" height="350"></div>
-            <div><img src="IMG_0743.jpg" width="460" height="350"></div>
-            <div><img src="IMG_0744.jpg" width="460" height="350"></div>
-        <div>
-            <label>Name</label>
-            <input>
-        </div>
-        <div>
-            <label>Email Adress</label>
-            <input>
-        </div> 
-       <div>
-        <label>CELLPHONE NUMBER</label>
-       <input>
-       </div>
-        <div>
-            <label>CARD HOLDER NAME</label>
-            <input>
-        </div>
-        <div>
-            <label>CARD NUMBER</label>
-            <input>
-        </div>
-        <div>
-            <label>EXP DATE</label>
-            <input>
-        </div>
-        <div>
-            <label>CVV</label>
-            <INPUT>
-        </div>
-       
-        <a target="_blank" href="THANKS.html">THANKS</a>
+    <div class="container">
 
-
-    </form>
+        <form action="">
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Billing Address</h3>
+                <div class="inputBox">
+                    <span>full name:</span>
+                    <input type="text" placeholder="name">
+                </div> 
+                <div class="inputBox">
+                    <span>email:</span>
+                    <input type="text" placeholder="eg@gamil.com">
+                </div>
+                 <div class="inputBox">
+                    <span>address:</span>
+                    <input type="text" placeholder="house - street">
+                </div> 
+                <div class="inputBox">
+                    <span>city:</span>
+                    <input type="text" placeholder="sydney">
+                </div> 
+                <div class="inputBox">
+                    <span>full name:</span>
+                    <input type="text" placeholder="name">
+                </div> 
+                <div class="flex">
+                <div class="inputBox">
+                    <span>state:</span>
+                    <input type="text" placeholder="Australia">
+                </div> 
+                <div class="inputBox">
+                    <span>zip code:</span>
+                    <input type="text" placeholder="7445">
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="title">payment</h3>
+                
+                <div class="inputBox">
+                    <span>payment methods:</span>
+                   <img src="images/images (1).png" alt="">
+                </div> 
+                <div class="inputBox">
+                    <span>card holder:</span>
+                    <input type="text" placeholder="ms.jane doe">
+                </div>
+                 <div class="inputBox">
+                    <span>card number:</span>
+                    <input type="text" placeholder="1111-2222-3333-4444">
+                </div> 
+                <div class="inputBox">
+                    <span>exp month:</span>
+                    <input type="text" placeholder="November">
+                </div> 
+               
+                <div class="flex">
+                <div class="inputBox">
+                    <span>exp year:</span>
+                    <input type="text" placeholder="2028">
+                </div> 
+                <div class="inputBox">
+                    <span>ccv:</span>
+                    <input type="text" placeholder="744">
+                </div>
+                </div>
+            </div>
+        </div>
+        <input type="submit"  value="proceed to checkout" class="submit-btn">
+        </form>
+    </div>
 </body>
 </html>
