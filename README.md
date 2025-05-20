@@ -3,7 +3,7 @@
 K.S FLOWERS is a visually appealing, static flower shop website built with HTML and CSS. It showcases elegant styling, smooth layout, and modern UI design — ideal for practicing frontend structure and styling skills.
 
 
-🌸 Features
+🌸 FEATURES
 
 🌼 Clean and modern homepage layout
 
@@ -16,13 +16,7 @@ K.S FLOWERS is a visually appealing, static flower shop website built with HTML 
 🧰 HTML & CSS only (no frameworks)
 
 
-📁 Project Structure
-
-bash
-
-Copy
-
-Edit
+📁 PROJECT STRUCTURE
 
 K.S-FLOWERS/
 
@@ -35,15 +29,9 @@ K.S-FLOWERS/
 └── README.md
 
 
-📦 Getting Started
+📦 GETTING STARTED
 
 1. Clone the repository
-   
-bash
-
-Copy
-
-Edit
 
 git clone https://github.com/KAGI0433/K.S-FLOWERS.git
 
@@ -53,20 +41,8 @@ cd K.S-FLOWERS
 
 You can simply open the index.html file directly:
 
-bash
-
-Copy
-
-Edit
-
 open index.html
 Or run a local server (optional):
-
-bash
-
-Copy
-
-Edit
 
 python3 -m http.server
 
@@ -74,7 +50,7 @@ Then go to: http://localhost:8000
 
 
 
-🧰 Built With
+🧰 BUILT WITH
 
 HTML5
 
@@ -85,7 +61,7 @@ Google Fonts
 Image assets for floral design
 
 
-📌 Future Ideas
+📌 FUTURE IDEAS
 
 Add contact form or order form
 
